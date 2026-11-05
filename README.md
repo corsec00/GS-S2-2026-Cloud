@@ -1,6 +1,8 @@
 # GS-S2-2026-Cloud
 Prova GS2 para a turma 2TDCR-2026
 
+Obs: Após o termino da prova, os arquivos de configuração e 'gabaritos' serão atualizados neste repositório. 
+
 # Q1 Functions
 5 pontos. Será validado o desenvolvimento do aluno, não apenas a resposta final
 
@@ -32,7 +34,7 @@ Function App (fiap-monitoring-func001)
 ``` 
 
 
-![Exemplo](Function,jpg)
+![Exemplo](https://github.com/corsec00/GS-S2-2026-Cloud/blob/main/Function.jpg)
 
 
 
@@ -81,4 +83,4 @@ Criar uma Custom Role chamada:
 Entregáveis:
 
 Para a correção, a role será validada dentro da própria Subscription. 
-![Exemplo](rbac,jpg)
+![Exemplo](https://github.com/corsec00/GS-S2-2026-Cloud/blob/main/RBAC.jpg)
