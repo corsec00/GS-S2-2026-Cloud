@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "roleName": "AI Foundry Consumption Reader",
+    "description": "Permite visualizar recursos Azure AI Foundry, deployments, métricas e consumo sem permitir alterações.",
+    "assignableScopes": [
+      "/subscriptions/9e2cc55a-0be2-431f-9cb7-0b7e3a8eab7a"
+    ],
+    "permissions": [
+      {
+        "actions": [
+    "Microsoft.CognitiveServices/accounts/read",
+    "Microsoft.CognitiveServices/accounts/deployments/read",
+    "Microsoft.Insights/*/read",
+    "Microsoft.Consumption/*/read",
+    "Microsoft.CostManagement/*/read"
+],
+"notActions": [
+    "Microsoft.Authorization/*",
+    "Microsoft.CognitiveServices/accounts/write",
+    "Microsoft.CognitiveServices/accounts/delete",
+    "Microsoft.CognitiveServices/accounts/deployments/write",
+    "Microsoft.CognitiveServices/accounts/deployments/delete"
+],
+        "dataActions": [],
+        "notDataActions": []
+      }
+    ]
+  }
+}
+
